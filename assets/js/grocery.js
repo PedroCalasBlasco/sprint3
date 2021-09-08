@@ -70,7 +70,7 @@ function addToCartList(id) {
     // 1. Loop for to the array products to get the item to add to cart
     for(var i = 0; i < products.length; i++){
         if (i == id ){
-            cartList.append(products[i + 1])
+            cartList.push(products[i])
         }
     }
     // 2. Add found product to the cartList array
