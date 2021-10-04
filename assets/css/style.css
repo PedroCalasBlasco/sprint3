@@ -2336,3 +2336,37 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+
+/*ERRORES*/
+
+#errorNameVacio{
+  display: none;
+  color: red;
+}
+
+#errorEmailVacio{
+  display: none;
+  color: red;
+}
+
+#errorAddressVacio{
+  display: none;
+  color: red;
+}
+
+#errorLastVacio{
+  display: none;
+  color: red;
+}
+
+#errorPasswordVacio{
+  display: none;
+  color: red;
+}
+
+#errorPhoneVacio{
+  display: none;
+  color: red;
+}
